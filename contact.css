@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.titlepage {
+font-weight: 300;
+font-size: 4.3em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 800px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(52, 78, 65);
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.descr{
+    display: flex;
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+}
+
+.info, .descr, .titlesite, .titlepage, .insta {
+    font-weight: 300; /* Semi-bold */
+}
+
+.info label, .titlesite, .titlepage, .insta {
+    font-weight: 300; /* Semi-bold */
+}
+
+.info input, .descr textarea {
+    font-weight: 300; /* Semi-bold */
+}
+
+.retour-accueil {
+    width: 100%;
+    padding-left:0.85%;
+    margin-top: 8px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.retour-accueil:visited {
+    color: white;
+  }
+
+.lien-insta {
+    text-decoration: none;
+    color:black
+}
+
+.lien-insta:visited {
+    color: black
+}
+
+.cta {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 5px;
+}
